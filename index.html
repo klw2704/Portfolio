@@ -7,7 +7,7 @@
     <title>KW Personal Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    
 </head>
 <body>
 
@@ -16,7 +16,6 @@
         <ul class="link-group">
             <li class="link active"><a href="#">home</a></li>
             <li class="link"><a href="#">projects</a></li>
-           <!-- <li class="link"><a href="#">certificates</a></li>-->
             <li class="link"><a href="#">about</a></li>
             <li class="link"><a href="#">contact</a></li>
         </ul>
@@ -29,7 +28,7 @@
     </section>
 
     <!-- project section -->
-    <section class="project-section active">
+    <section class="project-section">
         <h1 class="project-heading">some of my projects</h1>
         <div class="project-container">
             <div class="project-card">
@@ -41,8 +40,8 @@
                         End of course project for the Code First: Girls HTML course i completed. 
                     </p>
                     <div class="project-btn-grp">
-                        <button class="project-btn github" href="https://github.com/klw2704/foodies" target=“_blank”>github repo</button>
-                        <button class="project-btn live">see live</button>
+                        <button class="project-btn github"><a class="btn-a-link" href="https://www.github.com/klw2704/foodies" target=“_blank”>github repo</a></button>
+                        <button class="project-btn live"><a class="btn-a-link" href="#" target="_blank">see live</a></button>
                     </div>
                 </div>
             </div>
@@ -53,11 +52,11 @@
                 <div class="project-content">
                     <h1 class="project-title">project 02</h1>
                     <p class="project-info">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                     <div class="project-btn-grp">
-                        <button class="project-btn github">github repo</button>
-                        <button class="project-btn live">see live</button>
+                        <button class="project-btn github"><a class="btn-a-link" href="#" target=“_blank”>github repo</a></button>
+                        <button class="project-btn live"><a class="btn-a-link" href="#" target="_blank">see live</a></button>
                     </div>
                 </div>
             </div>
@@ -68,11 +67,11 @@
                 <div class="project-content">
                     <h1 class="project-title">project 03</h1>
                     <p class="project-info">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </p>
                     <div class="project-btn-grp">
-                        <button class="project-btn github">github repo</button>
-                        <button class="project-btn live">see live</button>
+                        <button class="project-btn github"><a class="btn-a-link" href="#" target=“_blank”>github repo</a></button>
+                        <button class="project-btn live"><a class="btn-a-link" href="#" target="_blank">see live</a></button>
                     </div>
                 </div>
             </div>
@@ -83,11 +82,11 @@
                 <div class="project-content">
                     <h1 class="project-title">project 04</h1>
                     <p class="project-info">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </p>
                     <div class="project-btn-grp">
-                        <button class="project-btn github">github repo</button>
-                        <button class="project-btn live">see live</button>
+                        <button class="project-btn github"><a class="btn-a-link" href="#" target=“_blank”>github repo</a></button>
+                        <button class="project-btn live"><a class="btn-a-link" href="#" target="_blank">see live</a></button>
                     </div>
                 </div>
             </div>
@@ -95,133 +94,146 @@
     </section>
 
     <!-- about section -->
-<section class="about-section active">
-    <div class="about">
-        <div class="about-img-container">
-            <img src="img/home.jpg" class="about-img" alt="">
-            <a class="download-cv-btn" href="C:/Users/wilki/Desktop/Coding/Portfolio/img/cv.pdf" target=“_blank”>download CV</a>
+    <section class="about-section">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="img/home.jpg" class="about-img" alt="">
+                <a class="download-cv-btn" href="C:/Users/wilki/Desktop/Coding/Portfolio/img/cv.pdf" target=“_blank”>download CV</a>
+            </div>
+            <p class="about-info"><b>About Me</b><br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, excepturi ducimus reiciendis at possimus accusantium enim consequuntur rerum earum voluptatem adipisci ullam doloribus, ut labore ea corrupti molestiae, voluptates animi vero facere consectetur consequatur dolorum. Iure veniam dolore minus nostrum facere fugiat illum consequuntur omnis expedita harum unde possimus maiores quia impedit reiciendis quaerat accusamus incidunt numquam saepe, minima hic deserunt. Deserunt atque error eaque libero a, voluptatum dolore temporibus ullam id illum omnis consequuntur unde consectetur accusamus, ab accusantium.</p>
         </div>
-        <p class="about-info"><b>About Me</b><br /> I am...</p>
-    </div>
-</section>
-
-<!-- skills -->
-<div class="skill-section">
-    <h1 class="heading">skills</h1>
-    <div class="skills-container">
-
-        <div class="skill-card">
-            <img src="img/html.png" class="skill-img" alt="">
-            <div class="skill-level">80%</div>
-            <h1 class="skill-name">HTML</h1>
-            <p class="skill-info">Code First: Girls Course</p>
-            <a class="download-certificate-btn" href="./htmllol.pdf" target="“_blank” ">view certificate</a>
-        </div>
-
-        <div class="skill-card">
-            <img src="img/css.png" class="skill-img" alt="">
-            <div class="skill-level">0%</div>
-            <h1 class="skill-name">CSS</h1>
-            <p class="skill-info">Text</p><a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
-        </div>
-
-        <div class="skill-card">
-            <img src="img/js.png" class="skill-img" alt="">
-            <div class="skill-level">0%</div>
-            <h1 class="skill-name">JavaScript</h1>
-            <p class="skill-info">Text</p>
-            <p class="skill-info">Text</p><a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
-        </div>
-
-        <div class="skill-card">
-            <img src="img/nodejs.png" class="skill-img" alt="">
-            <div class="skill-level">0%</div>
-            <h1 class="skill-name">C#</h1>
-            <p class="skill-info">Text</p>
-            <p class="skill-info">Text</p><a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
-        </div>
-
-        <div class="skill-card">
-            <img src="img/.png" class="skill-img" alt="">
-            <div class="skill-level">0%</div>
-            <h1 class="skill-name">Angular</h1>
-            <p class="skill-info">Text</p>
-            <p class="skill-info">Text</p><a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
-        </div>
-
-        <div class="skill-card">
-            <img src="img/.png" class="skill-img" alt="">
-            <div class="skill-level">0%</div>
-            <h1 class="skill-name">Python</h1>
-            <p class="skill-info">Text</p>
-            <p class="skill-info">Text</p><a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
-        </div>
-
-        <div class="skill-card">
-            <img src="img/.png" class="skill-img" alt="">
-            <div class="skill-level">80%</div>
-            <h1 class="skill-name">SQL</h1>
-            <p class="skill-info">Codecademy Learn SQL Course</p>
-            <a class="download-certificate-btn" href="./sql_certificate.pdf" target="“_blank” "> view certificate</a>
-        </div>
-
-    </div>
-</div>  
-
-<!-- timeline -->
-<div class="timeline">
-    <h1 class="heading">education and experience</h1>
-
-    <div class="card">
-        <div class="card-body">
-            <h1 class="card-title">2014 - 2020</h1>
-            <p class="card-detail"> <b> Durham Univeristy </b> <br /> <i> BSc Physical Geography </i></p>
-        </div>
-    </div>
     
-    <div class="card">
-        <div class="card-body">
-            <h1 class="card-title">2021 - Present</h1>
-            <p class="card-detail"> <b> Alcium Software </b> <br /> <i> Data Support Analyst </i> </p>
-        </div>
-    </div>
 
- <div class="card">
-        <div class="card-body">
-            <h1 class="card-title">2021 - 2026 </h1>
-            <p class="card-detail"> <b> Open University </b> <br /> <i> BSc Honors Combined STEM</i> <br /> - Mechanical Engineering <br /> - Software Engineering </p>
-        </div>
-    </div>
+    <!-- skills -->
+    <div class="skill-section">
+        <h1 class="heading">skills</h1>
+        <div class="skills-container">
 
-     <!--  <div class="card">
-        <div class="card-body">
-            <h1 class="card-title">date</h1>
-            <p class="card-detail">title <br /> description </p>
-        </div>
-    </div>
+            <div class="skill-card">
+                <img src="img/html.png" class="skill-img" alt="">
+                <div class="skill-level">0%</div>
+                <h1 class="skill-name">HTML</h1>
+                <p class="skill-info">Lorem ipsum dolor.</p>
+                <a class="download-certificate-btn" href="./html_cert.pdf" target="“_blank” ">view certificate</a>
+            </div>
 
-    <div class="card">
-        <div class="card-body">
-            <h1 class="card-title">date</h1>
-            <p class="card-detail">title <br /> description </p>
-        </div>
-    </div>-->
-  
-</div>
+            <div class="skill-card">
+                <img src="img/css.png" class="skill-img" alt="">
+                <div class="skill-level">0%</div>
+                <h1 class="skill-name">CSS</h1>
+                <p class="skill-info">Lorem ipsum dolor.</p>
+                <a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
+            </div>
 
-<!-- contact section -->
-<section class="contact-section">
-    <form class="contact-form">
-        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
-        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
-        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
-        <button type="submit" class="form-submit-btn">contact</button>
-    </form>
-    <!-- map -->
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448181.163742937!2d76.81306771991275!3d28.647279935262464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1639489002410!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="skill-card">
+                <img src="img/js.png" class="skill-img" alt="">
+                <div class="skill-level">0%</div>
+                <h1 class="skill-name">JavaScript</h1>
+                <p class="skill-info">Lorem ipsum dolor.</p>
+                <a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
+            </div>
+
+            <div class="skill-card">
+                <img src="img/nodejs.png" class="skill-img" alt="">
+                <div class="skill-level">0%</div>
+                <h1 class="skill-name">Node.js</h1>
+                <p class="skill-info">Lorem ipsum dolor.</p>
+                <a class="download-certificate-btn" href="#" target="“_blank” "> view certificate</a>
+            </div>
+
+            <div class="skill-card">
+                <img src="img/#.png" class="skill-img" alt="">
+                <div class="skill-level">0%</div>
+                <h1 class="skill-name">C#</h1>
+                <p class="skill-info">Lorem ipsum dolor.</p>
+                <a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
+            </div>
+
+            <div class="skill-card">
+                <img src="img/.png" class="skill-img" alt="">
+                <div class="skill-level">0%</div>
+                <h1 class="skill-name">Angular</h1>
+                <p class="skill-info">Lorem ipsum dolor.</p>
+                <a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
+            </div>
+
+            <div class="skill-card">
+                <img src="img/.png" class="skill-img" alt="">
+                <div class="skill-level">0%</div>
+                <h1 class="skill-name">Python</h1>
+                <p class="skill-info">Lorem ipsum dolor.</p>
+                <a class="download-certificate-btn" href="#" target="“_blank”">view certificate</a>
+            </div>
+
+            <div class="skill-card">
+                <img src="img/.png" class="skill-img" alt="">
+                <div class="skill-level">80%</div>
+                <h1 class="skill-name">SQL</h1>
+                <p class="skill-info">Lorem ipsum dolor.</p>
+                <a class="download-certificate-btn" href="./sql_certificate.pdf" target="“_blank” "> view certificate</a>
+            </div>
+
+        </div>
+    </div>  
+
+    <!-- timeline -->
+    <div class="timeline">
+        <h1 class="heading">education and experience</h1>
+
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2014 - 2020</h1>
+                <p class="card-detail"> <b> Durham Univeristy </b> <br /> <i> BSc Physical Geography </i></p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2021 - Present</h1>
+                <p class="card-detail"> <b> Alcium Software </b> <br /> <i> - Data Support Analyst <br /> - Software Tester <br /> - Project Management</i> </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">2021 - 2026 </h1>
+                <p class="card-detail"> <b> Open University </b> <br /> <i> BSc Honors Combined STEM</i> <br /> - Mechanical Engineering <br /> - Software Engineering </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">YYYY - YYYY</h1>
+                <p class="card-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque debitis voluptatem veritatis, minima deleniti nihil? Voluptas facere inventore soluta quasi delectus!</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">YYYY - YYYY</h1>
+                <p class="card-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque debitis voluptatem veritatis, minima deleniti nihil? Voluptas facere inventore soluta quasi delectus!</p>
+            </div>
+        </div>
+    
     </div>
-</section>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section">
+        <form class="contact-form">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+            <button type="submit" class="form-submit-btn">contact</button>
+        </form>
+
+        <!-- map -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11473.59174913783!2d-1.4799538411062092!3d53.37914832091759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879828191db4af5%3A0x29c9d8772a649f10!2sSheffield%20City%20Centre%2C%20Sheffield!5e0!3m2!1sen!2suk!4v1641481797872!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 
 </body>
 </html>
