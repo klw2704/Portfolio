@@ -10,6 +10,11 @@
     display: none;
   }
 
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
 body{
     width: 100%;
     display: block;
@@ -509,7 +514,7 @@ body{
     border: 1px solid #fff;
     margin-bottom: 30px;
     border-radius: 5px;
-    text-transform: capitalize;
+    text-transform: none;
     color: #fff;
     padding: 5px 10px;
 }
