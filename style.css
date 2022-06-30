@@ -65,7 +65,8 @@ body{
 .home-section.active,
 .project-section.active,
 .about-section.active,
-.contact-section.active{
+.contact-section.active,
+.certificates-section.active{
     position: relative;
     opacity: 1;
     z-index: 8;
@@ -554,4 +555,23 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 5px;
+}
+
+/* certificates section */
+.certificates-section{
+    /* width: 100%; */
+    height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
+}
+
+.certificate-table{
+  color: #fff;  
+  border-color: #fff;
+  margin-top: 100px;
 }
