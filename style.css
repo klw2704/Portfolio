@@ -416,7 +416,7 @@ body{
 
 .card:nth-child(even):before{
     content: '';
-    position: absolute;
+    position: relative;
     left: -15%;
     top: 50%;
     transform: translateY(-50%);
@@ -428,7 +428,7 @@ body{
 
 .card:nth-child(even):after{
     content: '';
-    position: absolute;
+    position: relative;
     left: -8.5%;
     top: 50%;
     transform: translateY(-50%);
@@ -440,7 +440,7 @@ body{
 
 .card:nth-child(odd):before{
     content: '';
-    position: absolute;
+    position: relative;
     right: -13%;
     top: 50%;
     transform: translateY(-50%);
@@ -452,7 +452,7 @@ body{
 
 .card:nth-child(odd):after{
     content: '';
-    position: absolute;
+    position: relative;
     right: -8.5%;
     top: 50%;
     transform: translateY(-50%);
@@ -480,7 +480,7 @@ body{
 
 .card:nth-child(even) .card-body:before{
     content: '';
-    position: absolute;
+    position: relative;
     left: -12%;
     top: 0;
     width: 0px;
